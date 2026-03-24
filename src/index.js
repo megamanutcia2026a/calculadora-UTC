@@ -28,7 +28,7 @@ app.get('/', (req,res)=>{
 
 
 //SUMA.
-app.post('/sumar', (req,res)=> {
+app.post('/suma-dos-numeros', (req,res)=> {
 	const { num1,num2 } = req.body;
 
 	if(!num1 || !num2){
